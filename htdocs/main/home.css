@@ -1,0 +1,63 @@
+/* Estilo geral para o container de produtos */
+#productsContainer {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Título da categoria */
+.category-section h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Layout do grid de produtos */
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* Estilo do card de produto */
+.product-card {
+    width: 150px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Estilo da imagem do produto */
+.product-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* Nome do produto */
+.product-card h3 {
+    font-size: 1.1em;
+    color: #000;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Preço do produto */
+.product-card p {
+    font-size: 0.9em;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Descrição do produto */
+.product-card p:last-child {
+    font-size: 0.8em;
+    color: #777;
+}
